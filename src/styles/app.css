@@ -51,6 +51,10 @@ a {
   display: inline-flex;
   padding: 12px 24px;
   font-weight: 700;
+  transition: 0.2s background;
+}
+.btn:hover {
+  background: #ea7600;
 }
 
 .bg {
@@ -153,6 +157,9 @@ a {
   padding: 24px;
 }
 
+.five-card {
+  transition: 0.2s ease background, 0.2s ease color;
+}
 .five-card__num {
   display: inline-block;
   font-size: 64px;
@@ -162,6 +169,15 @@ a {
 }
 .five-card__title {
   margin-bottom: 16px;
+  color: #fe8a02;
+  transition: 0.2s ease color;
+}
+.five-card:hover {
+  background: #fe8a02;
+  color: #fff;
+}
+.five-card:hover .five-card__title {
+  color: #fff;
 }
 
 .main__wrapper {
