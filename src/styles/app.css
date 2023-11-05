@@ -100,6 +100,7 @@ a {
 .text-flex {
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 .text-flex__item {
