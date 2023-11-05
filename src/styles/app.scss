@@ -27,6 +27,7 @@ h3{
 }
 a{
   text-decoration: none;
+  color: inherit;
 }
 .container{
   max-width: 1110px;
@@ -50,6 +51,9 @@ a{
 }
 .bg-light{
   background: $light;
+}
+.bg-dark{
+  background: $primaryDark;
 }
 .bg:before{
   content: '';
@@ -112,3 +116,39 @@ a{
   margin-bottom: -200px;
 }
 //video end
+
+//five start
+.five {
+  &__container{
+    padding-top: 200px;
+  }
+  &__cards{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 30px;
+  }
+  &__title {
+    font-size: 52px;
+    color: $white;
+  }
+
+  &__card {
+    padding: 24px;
+  }
+}
+.five-card {
+  &__num{
+    display: inline-block;
+    font-size: 64px;
+    line-height: 1;
+    margin-bottom: 40px;
+    font-family: 'Neucha', sans-serif;
+  }
+  &__title{
+    margin-bottom: 16px;
+  }
+  &__description{
+
+  }
+}
+//five end
