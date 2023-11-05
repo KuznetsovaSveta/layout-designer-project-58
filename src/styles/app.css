@@ -13,7 +13,7 @@ body {
 
 h1, h2, h3 {
   line-height: 1.2em;
-  font-family: "Neucha", sans-serif;
+  font-family: Neucha, sans-serif;
   font-weight: 400;
 }
 
@@ -104,7 +104,7 @@ a {
   flex-wrap: wrap;
 }
 
-.text-flex__item {
+.text-flex-item {
   width: calc(50% - 15px);
 }
 
@@ -113,11 +113,11 @@ a {
   overflow: hidden;
 }
 
-.header__title {
+.header-title {
   margin-bottom: 193px;
 }
 
-.header__img {
+.header-img {
   position: absolute;
   height: 525px;
   top: 55px;
@@ -125,7 +125,7 @@ a {
   z-index: -1;
 }
 
-.header__link {
+.header-link {
   margin-top: 40px;
 }
 
@@ -133,46 +133,46 @@ a {
   text-align: center;
 }
 
-.video__title {
+.video-title {
   margin-bottom: 30px;
 }
 
-.video__subtitle {
+.video-subtitle {
   margin-bottom: 30px;
 }
 
-.video__yt {
+.video-yt {
   filter: drop-shadow(0 16px 32px rgba(0, 0, 0, 0.15));
   margin-bottom: -200px;
 }
 
-.five__container {
+.five-container {
   padding-top: 200px;
 }
-.five__cards {
+.five-cards {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 20px 30px;
 }
-.five__title {
+.five-title {
   font-size: 52px;
   color: #fff;
 }
-.five__card {
+.five-card {
   padding: 22px;
 }
 
 .five-card {
   transition: 0.2s ease background, 0.2s ease color;
 }
-.five-card__num {
+.five-card-num {
   display: inline-block;
   font-size: 64px;
   line-height: 1;
   margin-bottom: 40px;
-  font-family: "Neucha", sans-serif;
+  font-family: Neucha, sans-serif;
 }
-.five-card__title {
+.five-card-title {
   margin-bottom: 16px;
   color: #fe8a02;
   transition: 0.2s ease color;
@@ -181,56 +181,56 @@ a {
   background: #fe8a02;
   color: #fff;
 }
-.five-card:hover .five-card__title {
+.five-card:hover .five-card-title {
   color: #fff;
 }
 
-.main__wrapper {
+.main-wrapper {
   display: flex;
   justify-content: space-between;
   margin-bottom: 100px;
 }
 
-.main__wrapper-reverse {
+.main-wrapper-reverse {
   flex-direction: row-reverse;
 }
 
-.main__img {
+.main-img {
   flex-shrink: 0;
 }
 
-.main__left {
+.main-left {
   margin-right: 30px;
   filter: drop-shadow(0 16px 32px rgba(0, 0, 0, 0.15));
 }
 
-.main__left-reverse {
+.main-left-reverse {
   margin-right: 0;
   margin-left: 30px;
 }
 
-.main__header {
-  font-family: "Neucha", sans-serif;
+.main-header {
+  font-family: Neucha, sans-serif;
   font-size: 24px;
   line-height: 28.8px;
   color: #908d8b;
 }
 
-.main__header-light {
+.main-header-light {
   color: #d7ccc0;
 }
 
-.main__title {
+.main-title {
   margin-bottom: 30px;
 }
 
-.main__description {
-  font-family: "Neucha", sans-serif;
+.main-description {
+  font-family: Neucha, sans-serif;
   font-size: 34px;
   line-height: 1.2;
 }
 
-.main__subtitle {
+.main-subtitle {
   font-family: "Open Sans", sans-serif;
   font-size: 14px;
   font-weight: 700;
@@ -239,7 +239,7 @@ a {
   margin-bottom: 20px;
 }
 
-.footer__top {
+.footer-top {
   color: #fff;
   padding: 40px 55px;
   display: flex;
@@ -248,28 +248,28 @@ a {
   margin-bottom: 60px;
 }
 
-.footer__title {
+.footer-title {
   width: calc(50% - 15px);
 }
 
-.footer__form {
+.footer-form {
   width: calc(50% - 15px);
   display: flex;
   flex-direction: column;
 }
 
-.form__label {
+.form-label {
   font-size: 18px;
   line-height: 160%;
   margin-bottom: 10px;
 }
 
-.form__wrapper {
+.form-wrapper {
   width: 100%;
   position: relative;
 }
 
-.form__input {
+.form-input {
   height: 50px;
   padding: 15px;
   width: 100%;
@@ -277,13 +277,13 @@ a {
   outline: none;
 }
 
-.form__button {
+.form-button {
   height: 50px;
   width: 70px;
   position: absolute;
   right: 0;
 }
-.form__button:before {
+.form-button:before {
   content: "";
   width: 24px;
   height: 24px;
@@ -296,28 +296,28 @@ a {
   background-repeat: no-repeat;
 }
 
-.form__agreement {
+.form-agreement {
   font-size: 12px;
 }
-.form__agreement-link {
+.form-agreement-link {
   text-decoration: underline;
 }
 
-.footer__contacts {
+.footer-contacts {
   display: flex;
   flex-direction: column;
   align-items: center;
   font-size: 14px;
 }
 
-.footer__contact {
+.footer-contact {
   margin-bottom: 16px;
 }
-.footer__contact:last-child {
+.footer-contact:last-child {
   margin-bottom: 0;
 }
 
-.footer__link {
+.footer-link {
   text-decoration: underline;
 }
 
