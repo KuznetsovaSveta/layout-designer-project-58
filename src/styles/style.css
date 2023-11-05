@@ -11,7 +11,9 @@ body {
   line-height: 1.6em;
 }
 
-h1, h2, h3 {
+h1,
+h2,
+h3 {
   line-height: 1.2em;
   font-family: Neucha, sans-serif;
   font-weight: 400;
@@ -84,7 +86,7 @@ a {
   background: #42413c;
 }
 
-.bg:before {
+.bg::before {
   content: "";
   width: 100%;
   height: 100%;
@@ -92,10 +94,7 @@ a {
   background-repeat: no-repeat;
   background-size: cover;
   position: absolute;
-  left: 0;
-  top: 0;
-  right: 0;
-  bottom: 0;
+  inset: 0;
   opacity: 0.1;
 }
 
@@ -143,7 +142,7 @@ a {
 }
 
 .video-yt {
-  filter: drop-shadow(0 16px 32px rgba(0, 0, 0, 0.15));
+  filter: drop-shadow(0 16px 32px rgba(0, 0, 0, 15%));
   margin-bottom: -200px;
 }
 
@@ -164,9 +163,6 @@ a {
 
 .five-card {
   padding: 22px;
-}
-
-.five-card {
   transition: 0.2s ease background, 0.2s ease color;
 }
 
@@ -209,7 +205,7 @@ a {
 
 .main-left {
   margin-right: 30px;
-  filter: drop-shadow(0 16px 32px rgba(0, 0, 0, 0.15));
+  filter: drop-shadow(0 16px 32px rgba(0, 0, 0, 15%));
 }
 
 .main-left-reverse {
@@ -292,7 +288,7 @@ a {
   right: 0;
 }
 
-.form-button:before {
+.form-button::before {
   content: "";
   width: 24px;
   height: 24px;
