@@ -57,8 +57,18 @@ a {
   position: relative;
 }
 
+.bg-white {
+  color: #b09a81;
+  background: #fff;
+}
+
 .bg-light {
   background: #f5f4f0;
+}
+
+.bg-brown {
+  background: #b09a81;
+  color: #fff;
 }
 
 .bg-dark {
@@ -160,6 +170,10 @@ a {
   margin-bottom: 100px;
 }
 
+.main__wrapper-reverse {
+  flex-direction: row-reverse;
+}
+
 .main__img {
   flex-shrink: 0;
 }
@@ -168,11 +182,20 @@ a {
   margin-right: 30px;
 }
 
+.main__left-reverse {
+  margin-right: 0;
+  margin-left: 30px;
+}
+
 .main__header {
   font-family: "Neucha", sans-serif;
   font-size: 24px;
   line-height: 28.8px;
   color: #908d8b;
+}
+
+.main__header-light {
+  color: #d7ccc0;
 }
 
 .main__title {
@@ -186,8 +209,6 @@ a {
 }
 
 .main__subtitle {
-  background: #b09a81;
-  color: #fff;
   font-family: "Open Sans", sans-serif;
   font-size: 14px;
   font-weight: 700;
