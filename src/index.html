@@ -198,7 +198,25 @@
 </main>
 
 <footer class="footer">
+  <div class="container">
+    <div class="footer__top bg-dark">
+      <h3 class="footer__title">Хотите узнать больше?  Подпишитесь на обновления</h3>
+      <form class="footer__form form">
+        <label class="form__label" for="email">Электронная почта</label>
+        <div class="form__wrapper">
+          <input type="text" name="email" id="email" class="form__input" placeholder="Ваша электронная почта">
+          <button class="form__button btn"></button>
+        </div>
+        <span class="form__agreement">Подписываясь, вы принимаете <a href="#!" class="form__agreement-link">правила сервиса</a></span>
+      </form>
+    </div>
 
+    <div class="footer__contacts">
+      <span class="footer__copy footer__contact">© 2020 Константин Константинопольский</span>
+      <span class="footer__contact">По материалам статьи <a href="https://medium.com/hackernoon/cognitive-biases-in-programming-5e937707c27b" class="footer__link">Yash Ranadive Cognitive Biases in Programming</a></span>
+      <a href="https://ru.hexlet.io/" class="footer__link footer__contact">Курсы программирования Hexlet</a>
+    </div>
+  </div>
 </footer>
 </body>
 </html>

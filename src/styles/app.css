@@ -52,6 +52,9 @@ a {
   padding: 12px 24px;
   font-weight: 700;
   transition: 0.2s background;
+  outline: none;
+  border: none;
+  cursor: pointer;
 }
 .btn:hover {
   background: #ea7600;
@@ -231,6 +234,88 @@ a {
   text-transform: uppercase;
   padding: 5px 10px;
   margin-bottom: 20px;
+}
+
+.footer__top {
+  color: #fff;
+  padding: 40px 55px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 60px;
+}
+
+.footer__title {
+  width: calc(50% - 15px);
+}
+
+.footer__form {
+  width: calc(50% - 15px);
+  display: flex;
+  flex-direction: column;
+}
+
+.form__label {
+  font-size: 18px;
+  line-height: 160%;
+  margin-bottom: 10px;
+}
+
+.form__wrapper {
+  width: 100%;
+  position: relative;
+}
+
+.form__input {
+  height: 50px;
+  padding: 15px;
+  width: 100%;
+  border: 0;
+  outline: none;
+}
+
+.form__button {
+  height: 50px;
+  width: 70px;
+  position: absolute;
+  right: 0;
+}
+.form__button:before {
+  content: "";
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-image: url("../img/send.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.form__agreement {
+  font-size: 12px;
+}
+.form__agreement-link {
+  text-decoration: underline;
+}
+
+.footer__contacts {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 14px;
+}
+
+.footer__contact {
+  margin-bottom: 16px;
+}
+.footer__contact:last-child {
+  margin-bottom: 0;
+}
+
+.footer__link {
+  text-decoration: underline;
 }
 
 /*# sourceMappingURL=app.css.map */
