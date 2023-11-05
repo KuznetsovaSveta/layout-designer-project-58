@@ -149,7 +149,7 @@ a {
   filter: drop-shadow(0 16px 32px rgba(0, 0, 0, 0.15));
   position: absolute;
   left: 50%;
-  bottom: -100px;
+  bottom: -84px;
   transform: translateX(-50%);
 }
 
