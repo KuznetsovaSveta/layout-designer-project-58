@@ -48,7 +48,7 @@ a {
   background: #fe8a02;
   color: #fff;
   display: inline-flex;
-  padding: 12px 23px;
+  padding: 12px 24px;
   font-weight: 700;
 }
 
@@ -103,6 +103,23 @@ a {
 
 .header__link {
   margin-top: 40px;
+}
+
+.video {
+  text-align: center;
+}
+
+.video__title {
+  margin-bottom: 27px;
+}
+
+.video__subtitle {
+  margin-bottom: 30px;
+}
+
+.video__yt {
+  filter: drop-shadow(0 16px 32px rgba(0, 0, 0, 0.15));
+  margin-bottom: -200px;
 }
 
 /*# sourceMappingURL=app.css.map */
