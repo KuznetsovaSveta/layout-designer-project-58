@@ -130,6 +130,11 @@ a {
 
 .video {
   text-align: center;
+  height: 814px;
+}
+
+.video__container {
+  height: 100%;
 }
 
 .video__title {
@@ -142,7 +147,10 @@ a {
 
 .video__yt {
   filter: drop-shadow(0 16px 32px rgba(0, 0, 0, 0.15));
-  margin-bottom: -200px;
+  position: absolute;
+  left: 50%;
+  bottom: -100px;
+  transform: translateX(-50%);
 }
 
 .five__container {
